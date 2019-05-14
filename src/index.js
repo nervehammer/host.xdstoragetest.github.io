@@ -17,7 +17,7 @@ doc.ready(function () {
 
     const storageHost = createStorageHost([
         {
-            origin: 'https://nervehammer.github.io/xdstoragetest-guest/',
+            origin: 'http://localhost:8080',
             allowedMethods: ['get', 'set', 'remove'],
         },
     ]);
