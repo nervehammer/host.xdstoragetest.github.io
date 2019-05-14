@@ -1,5 +1,6 @@
 const crel = require('crel');
 const doc = require('doc-js');
+const createStorageHost = require('cross-domain-storage/host');
 
 const instructions = crel('div', {
     class: 'instructions',
